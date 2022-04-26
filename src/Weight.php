@@ -2,12 +2,15 @@
 
 namespace Sergeshin\WeightConversion;
 
+use Whoops\Exception\ErrorException;
+
 class Weight
 {
     private float $kilograms;
 
-    public static function kilograms(float $kilograms): self
-    {
+    public static function kilograms(float $kilograms): self {
+        $myArray = array("123", 123);
+
         return new static($kilograms);
     }
 
