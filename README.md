@@ -1,9 +1,9 @@
 
-# :package_description
+# Weight conversions for php
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sergeshin/weight-conversion.svg?style=flat-square)](https://packagist.org/packages/sergeshin/weight-conversion)
+[![Tests](https://github.com/sergeshin/weight-conversion/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/sergeshin/weight-conversion/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/sergeshin/weight-conversion.svg?style=flat-square)](https://packagist.org/packages/sergeshin/weight-conversion)
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
@@ -12,14 +12,14 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require sergeshin/weight-conversion
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new Sergeshin\WeightConversion();
+echo $skeleton->echoPhrase('Hello, Sergeshin!');
 ```
 
 ## Testing
@@ -42,7 +42,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Serhii Shynkarenko](https://github.com/SergeShin)
 - [All Contributors](../../contributors)
 
 ## License
