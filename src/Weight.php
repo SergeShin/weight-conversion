@@ -4,7 +4,6 @@ namespace Sergeshin\WeightConversion;
 
 class Weight
 {
-
     private float $kilograms;
 
     public static function kilograms(float $kilograms): self
@@ -28,5 +27,4 @@ class Weight
     {
         return $this->kilograms * 0.15747;
     }
-
 }
